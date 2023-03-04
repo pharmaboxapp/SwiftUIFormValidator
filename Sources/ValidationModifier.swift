@@ -8,6 +8,7 @@
 
 import Foundation
 import SwiftUI
+import Combine
 
 public typealias ValidationErrorView<ErrorView: View> = (_ message: String) -> ErrorView
 
