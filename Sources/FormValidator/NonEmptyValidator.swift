@@ -4,6 +4,7 @@
 //
 
 import Foundation
+import Combine
 
 /// This validator validates if a string is empty of blank.
 public class NonEmptyValidator: StringValidator {

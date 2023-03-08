@@ -4,6 +4,7 @@
 //
 
 import Foundation
+import Combine
 
 /// This validator validates if a count is correct according to the type provided.
 public class CountValidator: StringValidator {

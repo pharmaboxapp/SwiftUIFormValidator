@@ -4,6 +4,7 @@
 //
 
 import Foundation
+import Combine
 
 public struct ValidatedPassword {
     let password: String

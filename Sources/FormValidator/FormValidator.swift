@@ -4,6 +4,7 @@
 //
 
 import Foundation
+import Combine
 
 public typealias StringProducerClosure = () -> String
 public typealias OnValidationChange = (Validation) -> Void
